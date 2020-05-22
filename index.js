@@ -4,7 +4,6 @@ const cors = require("cors");
 const helmet = require("helmet");
 const knex = require("knex");
 const knexConfig = require("./knexfile.js");
-require("dotenv").config();
 
 const db = knex(knexConfig.development);
 
